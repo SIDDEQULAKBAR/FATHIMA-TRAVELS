@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fathima Travels Dashboard</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Montserrat',sans-serif;
+}
+
+/* FULL PAGE */
+
+body{
+
+background:
+linear-gradient(rgba(10,20,30,0.85),rgba(10,20,30,0.85)),
+url("https://drive.google.com/thumbnail?id=1QIKrOfr7cfiL8L1T4jDtmnjGEtzGoebQ&sz=w2000");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+color:white;
+
+}
+
+/* FORCE WIDE LAYOUT */
+
+.wrapper{
+
+width:100vw;
+margin-left:calc(-50vw + 50%);
+padding:40px;
+
+}
+
+/* HEADER */
+
+.header{
+text-align:center;
+margin-bottom:40px;
+}
+
+.header img{
+width:320px;
+}
+
+/* DASHBOARD */
+
+.dashboard{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:35px;
+
+max-width:1600px;
+margin:auto;
+
+}
+
+/* BUTTONS */
+
+.app{
+
+background:rgba(255,255,255,0.08);
+
+border-radius:20px;
+
+padding:40px 20px;
+
+text-align:center;
+
+backdrop-filter:blur(10px);
+
+transition:0.35s;
+
+border:1px solid rgba(255,255,255,0.2);
+
+}
+
+.app:hover{
+
+transform:translateY(-10px) scale(1.05);
+
+background:rgba(255,255,255,0.15);
+
+box-shadow:0 20px 45px rgba(0,0,0,0.6);
+
+}
+
+.app img{
+
+width:65px;
+margin-bottom:12px;
+
+}
+
+.app a{
+
+text-decoration:none;
+color:white;
+font-weight:600;
+font-size:16px;
+display:block;
+
+}
+
+/* ICONS */
+
+.gmail i{color:#EA4335;font-size:28px;}
+.whatsapp i{color:#25D366;font-size:28px;}
+.pdf i{color:#ff5252;font-size:28px;}
+
+/* FOOTER */
+
+.footer{
+text-align:center;
+margin-top:40px;
+opacity:0.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="header">
+<img src="https://drive.google.com/thumbnail?id=1DA9UyLpsxBxIqm1DOVMx4_5DQCkwQvsF&sz=w1000">
+</div>
+
+<div class="dashboard">
+
+<div class="app">
+<a href="http://www.flycreativekdr.com:8080/FlyCreative/index.jsp" target="_blank">
+<img src="https://drive.google.com/thumbnail?id=1Zd4Jwxrwy0qVkuzuFnNeoaXUXt2PlDvT&sz=w500">
+FLY CREATIVE
+</a>
+</div>
+
+<div class="app">
+<a href="https://agents.alhind.com/Account/Login" target="_blank">
+<img src="https://drive.google.com/thumbnail?id=1yRqwOPO7yx0-8kSSG2Ytv4O5wCodhCtP&sz=w500">
+AL HIND
+</a>
+</div>
+
+<div class="app">
+<a href="https://masar.nusuk.sa/pub/login" target="_blank">
+<img src="https://drive.google.com/thumbnail?id=17dc4riaa5OG0snKzqawQVU0qOGtUoGIt&sz=w500">
+NUSUK
+</a>
+</div>
+
+<div class="app">
+<a href="https://visa.mofa.gov.sa/visaservices/Searchvisa" target="_blank">
+<img src="https://drive.google.com/thumbnail?id=1AKruSBW8liw5gVz9Cr_6csPC-bHPIkOb&sz=w500">
+PRINT UMRA VISA
+</a>
+</div>
+
+<div class="app">
+<a href="https://b2b.namotravel.in/" target="_blank">
+<img src="https://drive.google.com/thumbnail?id=1wvN_jovl0OqpVwVjg1160OkN05q0h9v1&sz=w500">
+NAMO TRAVEL
+</a>
+</div>
+
+<div class="app">
+<a href="https://b2b.riya.travel/" target="_blank">
+<img src="https://drive.google.com/thumbnail?id=1MRSPxLAP7Lu_kmo9_PbVjFjX20J3XUcw&sz=w500">
+RIYA TRAVELS
+</a>
+</div>
+
+<div class="app gmail">
+<a href="https://mail.google.com" target="_blank">
+<i class="fa-solid fa-envelope"></i><br>GMAIL
+</a>
+</div>
+
+<div class="app whatsapp">
+<a href="https://web.whatsapp.com" target="_blank">
+<i class="fa-brands fa-whatsapp"></i><br>WHATSAPP
+</a>
+</div>
+
+<div class="app pdf">
+<a href="https://www.sejda.com/pdf-editor" target="_blank">
+<i class="fa-solid fa-file-pdf"></i><br>PDF EDITOR
+</a>
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Fathima Travels Dashboard
+</div>
+
+</div>
+
+</body>
+</html>
