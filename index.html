@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Fathima Travels Dashboard</title>
-<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1DA9UyLpsxBxIqm1DOVMx4_5DQCkwQvsF&sz=w64">
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<title>Fathima Travels Dashboard</title>
 
+<!-- TAB LOGO (FAVICON) -->
+<link rel="icon" type="image/png"
+href="https://drive.google.com/thumbnail?id=1DA9UyLpsxBxIqm1DOVMx4_5DQCkwQvsF&sz=w64">
+
+<!-- GOOGLE FONT -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
@@ -19,7 +24,7 @@ box-sizing:border-box;
 font-family:'Montserrat',sans-serif;
 }
 
-/* FULL PAGE */
+/* FULL BACKGROUND */
 
 body{
 
@@ -33,10 +38,11 @@ background-repeat:no-repeat;
 background-attachment:fixed;
 
 color:white;
+min-height:100vh;
 
 }
 
-/* FORCE WIDE LAYOUT */
+/* WRAPPER */
 
 .wrapper{
 
@@ -57,37 +63,28 @@ margin-bottom:40px;
 width:320px;
 }
 
-/* DASHBOARD */
+/* DASHBOARD GRID */
 
 .dashboard{
 
 display:grid;
-
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-
 gap:35px;
-
 max-width:1600px;
 margin:auto;
 
 }
 
-/* BUTTONS */
+/* BUTTON STYLE */
 
 .app{
 
 background:rgba(255,255,255,0.08);
-
 border-radius:20px;
-
 padding:40px 20px;
-
 text-align:center;
-
 backdrop-filter:blur(10px);
-
 transition:0.35s;
-
 border:1px solid rgba(255,255,255,0.2);
 
 }
@@ -95,35 +92,23 @@ border:1px solid rgba(255,255,255,0.2);
 .app:hover{
 
 transform:translateY(-10px) scale(1.05);
-
 background:rgba(255,255,255,0.15);
-
 box-shadow:0 20px 45px rgba(0,0,0,0.6);
 
 }
 
 .app img{
-
 width:65px;
 margin-bottom:12px;
-
 }
 
 .app a{
-
 text-decoration:none;
 color:white;
 font-weight:600;
 font-size:16px;
 display:block;
-
 }
-
-/* ICONS */
-
-.gmail i{color:#EA4335;font-size:28px;}
-.whatsapp i{color:#25D366;font-size:28px;}
-.pdf i{color:#ff5252;font-size:28px;}
 
 /* FOOTER */
 
@@ -134,6 +119,7 @@ opacity:0.7;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -188,21 +174,21 @@ RIYA TRAVELS
 </a>
 </div>
 
-<div class="app gmail">
+<div class="app">
 <a href="https://mail.google.com" target="_blank">
-<i class="fa-solid fa-envelope"></i><br>GMAIL
+📧 GMAIL
 </a>
 </div>
 
-<div class="app whatsapp">
+<div class="app">
 <a href="https://web.whatsapp.com" target="_blank">
-<i class="fa-brands fa-whatsapp"></i><br>WHATSAPP
+💬 WHATSAPP
 </a>
 </div>
 
-<div class="app pdf">
+<div class="app">
 <a href="https://www.sejda.com/pdf-editor" target="_blank">
-<i class="fa-solid fa-file-pdf"></i><br>PDF EDITOR
+📄 PDF EDITOR
 </a>
 </div>
 
@@ -215,4 +201,5 @@ RIYA TRAVELS
 </div>
 
 </body>
+
 </html>
